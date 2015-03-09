@@ -1,9 +1,8 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
+/**
+ * Chessboard-like pattern
+ */
 class CPTTRN1 {
 
     public static void main(String[] args) {
