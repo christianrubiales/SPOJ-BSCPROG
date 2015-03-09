@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Diagonal cross pattern
+ */
 class PCROSS2 {
 
 	public static void main(String[] args) {
