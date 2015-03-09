@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Compare averages
+ */
 class SMPSEQ9 {
 
 	public static void main(String[] args) {
