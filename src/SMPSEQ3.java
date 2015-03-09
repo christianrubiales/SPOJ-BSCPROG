@@ -3,6 +3,9 @@ import java.util.Scanner;
 import java.util.Set;
 
 
+/**
+ * Which does not belong
+ */
 class SMPSEQ3 {
 
 	public static void main(String[] args) {
