@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Determine if partitionable where first partition is decreasing, the other is increasing.
+ */
 class SMPSEQ7 {
 
     public static void main(String[] args) {
