@@ -1,9 +1,8 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
+/**
+ * Grid-like pattern
+ */
 class CPTTRN3 {
 
     public static void main(String[] args) {
