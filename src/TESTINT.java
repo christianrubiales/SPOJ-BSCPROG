@@ -1,9 +1,8 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
+/**
+ * Print the sum
+ */
 class TESTINT {
 
     public static void main(String[] args) {
