@@ -1,10 +1,9 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
-class BSCXOR{
+/**
+ * Compute XOR
+ */
+class BSCXOR {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
