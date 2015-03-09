@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Cross pattern
+ */
 class PCROSS1 {
 
 	public static void main(String[] args) {
