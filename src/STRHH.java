@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Half of the half
+ */
 class STRHH {
 
 	public static void main(String[] args) {
