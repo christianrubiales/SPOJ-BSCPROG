@@ -1,50 +1,42 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 class SMPSEQ7 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+    	Scanner in = new Scanner(System.in);
+    	int n = in.nextInt();
+    	int[] s = new int[n];
+    	
+    	for (int i = 0; i < n; i++) {
+    		s[i] = in.nextInt();
+    	}
+    	
+    	for (int i = 0; i < n; i++) {
+    		if (isDecreasing(s, 0, i) && isIncreasing(s, i + 1, n - 1)) {
+    			System.out.println("Yes");
+    			return;
+    		}
+    	}
+    	System.out.println("No");
+    }
+    
+    public static boolean isIncreasing(int[] array, int i, int j) {
+    	for (int a = i + 1; a <= j; a++) {
+    		if (array[a] <= array[a-1]) {
+    			return false;
+    		}
+    	}
+    	
+    	return true;
+    }
 
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-        	arr[i] = in.nextInt();
-        }
-
-        List<Integer> list1 = new ArrayList<Integer>();
-        
-        int j = 0;
-        int x = arr[0];
-        int y = 0;
-        list1.add(x);
-        for (int i = 1; i < n; i++) {
-        	y = arr[i];
-        	if (x > y) {
-        		list1.add(arr[i]);
-        		x = y;
-        	} else {
-        		j = i;
-        		break;
-        	}
-        }
-        
-        if (n == list1.size()) {
-            System.out.println("No");
-            return;
-        }
-        
-        x = arr[j];
-        for (int i = j+1; i < n; i++) {
-        	y = arr[i];
-        	if (x > y) {
-	            System.out.println("No");
-	            return;
-        	}
-        }
-        System.out.println("Yes");
+    public static boolean isDecreasing(int[] array, int i, int j) {
+    	for (int a = i + 1; a <= j; a++) {
+    		if (array[a] >= array[a-1]) {
+    			return false;
+    		}
+    	}
+    	
+    	return true;
     }
 }
