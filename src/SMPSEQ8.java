@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Compare sums
+ */
 class SMPSEQ8 {
 
 	public static void main(String[] args) {
