@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Same index in the range
+ */
 class SMPSEQ6 {
 
 	public static void main(String[] args) {
