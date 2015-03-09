@@ -3,6 +3,9 @@ import java.util.Map;
 import java.util.Scanner;
 
 
+/**
+ * Substitution cipher
+ */
 class SMPCPH1 {
 
 	public static void main(String[] args) {
