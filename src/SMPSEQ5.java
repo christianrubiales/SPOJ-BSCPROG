@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 
+/**
+ * Same element in the index.
+ */
 class SMPSEQ5 {
 
 	public static void main(String[] args) {
